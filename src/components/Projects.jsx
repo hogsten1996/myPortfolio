@@ -1,7 +1,7 @@
 import React from "react";
 import WorkProject from "../assets/workProject.jpeg";
 import WorkProject2 from "../assets/workProject2.jpg";
-import Tasty from '../assets/portfile.png';
+import Tasty from "../assets/portfile.png";
 
 function Projects() {
   return (
@@ -27,12 +27,18 @@ function Projects() {
                 Tasty-Table
               </span>
               <div className="pt-8 text-center">
-                <a href="https://tasty-table-lqa6.onrender.com/">
+                <a
+                  href="https://tasty-table-lqa6.onrender.com/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/hogsten1996/myPortfolio">
+                <a
+                  href="https://github.com/hogsten1996/myPortfolio"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Code
                   </button>
