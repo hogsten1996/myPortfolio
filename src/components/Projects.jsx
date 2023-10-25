@@ -1,6 +1,7 @@
 import React from "react";
 import WorkProject from "../assets/workProject.jpeg";
 import WorkProject2 from "../assets/workProject2.jpg";
+import Tasty from '../assets/portfile.png';
 
 function Projects() {
   return (
@@ -17,21 +18,21 @@ function Projects() {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
-            style={{ backgroundImage: `url(${WorkProject})` }}
+            style={{ backgroundImage: `url(${Tasty})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider">
-                Placeholder
+                Tasty-Table
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://tasty-table-lqa6.onrender.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/hogsten1996/myPortfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Code
                   </button>
