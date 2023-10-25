@@ -53,15 +53,21 @@ function Projects() {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold tracking-wider">
-                Placeholder
+                Game4Free
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://lambent-gecko-2dcae8.netlify.app/"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/hogsten1996/Game4Free"
+                  target="_blank"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700">
                     Code
                   </button>
